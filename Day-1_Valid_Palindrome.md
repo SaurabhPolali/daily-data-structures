@@ -3,7 +3,7 @@
 ```python
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-
+        #Time complexity is O(n)
         s = s.lower()
         start = 0
         end = len(s)-1
@@ -18,4 +18,5 @@ class Solution:
                 start += 1
             elif not s[end].isalnum():
                 end -= 1
+    return True
 ```
